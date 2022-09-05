@@ -1,0 +1,68 @@
+body {
+
+  color: #B33030;
+  background-color: #2b303A;
+  font-family: 'Courier New', Courier, monospace;
+
+}
+
+h1 {
+   font-size: 48px;
+  text-align: left;
+}
+
+h2 {
+  color: #D64933;
+  text-align: left;
+  font-size: 24px;
+}
+
+h3 {
+  color: #D3ECA7;
+  text-align: left;
+}
+
+h4 {
+  color: #bba0ca;
+  font-family: arial;
+  font-size: 18px;
+}
+
+button.menu_btn {
+
+    border-radius: 0px;
+    border-width:0px;
+    
+    border-bottom-width:1px;
+    
+    margin: 2px;
+
+    text-align:left;
+
+    border-style:  solid ;
+    border-color: whitesmoke;
+    
+    color:whitesmoke;
+    background: none;
+   
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+
+}
+
+.portrait {
+
+border-style: solid;
+border-color: white;
+border-radius: 50%;
+border-width: 0.33rem;
+
+
+}
+
+.menu {
+
+    color: white;
+    background: #121113;
+}
+
