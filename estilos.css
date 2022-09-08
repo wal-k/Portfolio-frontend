@@ -12,13 +12,13 @@ h1 {
 }
 
 h2 {
-  color: #D64933;
+  color:   #df94b2;;
   text-align: left;
   font-size: 24px;
 }
 
 h3 {
-  color: #D3ECA7;
+  color:#D64933;
   text-align: left;
 }
 
@@ -27,6 +27,15 @@ h4 {
   font-family: arial;
   font-size: 18px;
 }
+
+.list-group-item {
+
+  background-color: #343b47;
+  color:whitesmoke;
+
+}
+
+
 
 button.menu_btn {
 
@@ -58,11 +67,40 @@ border-radius: 50%;
 border-width: 0.33rem;
 
 
+
+
 }
 
-.menu {
+.menu_lat{
 
     color: white;
     background: #121113;
+    height: 100vh;
 }
 
+.menu_bot{
+  color: white;
+  background: #121113;
+  height: 64px;
+}
+
+
+.space{
+
+    height: 12%;
+
+}
+
+i{
+
+   font-size: 32px;
+
+}
+
+.card{
+  
+    width: 20rem;
+    color: aliceblue;
+    background-color:   #343b47;
+    
+}
