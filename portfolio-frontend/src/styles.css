@@ -1,0 +1,137 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+  overflow:visible;
+ 
+ }
+
+body {
+    color: #B33030;
+    background-color: #2b303A;
+    font-family: 'Courier New', Courier, monospace;
+    
+  }
+  
+  h1 {
+     font-size: 48px;
+    text-align: left;
+  }
+  
+  h2 {
+    color:   #df94b2;;
+    text-align: left;
+    font-size: 24px;
+  }
+  
+  h3 {
+    color:#D64933;
+    text-align: left;
+  }
+  
+  h4 {
+    color: #bba0ca;
+    font-family: arial;
+    font-size: 18px;
+  }
+  
+  .list-group-item {
+    background-color: #343b47;
+    color:whitesmoke;
+  }
+  
+  
+  
+  button.menu_btn {
+  
+      border-radius: 0px;
+      border-width:0px;
+      
+      border-bottom-width:1px;
+      
+      margin: 2px;
+  
+      text-align:left;
+  
+      border-style:  solid ;
+      border-color: whitesmoke;
+      
+      color:whitesmoke;
+      background: none;
+     
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 12px;
+  
+  }
+  
+  .portrait {
+  
+  border-style: solid;
+  border-color: white;
+  border-radius: 50%;
+  border-width: 0.33rem;
+
+  }
+  
+  .menu_lat{
+  
+      color: white;
+      background: #121113;
+      height: 100vh;
+  }
+  
+  .menu_bot{
+    color: white;
+    background: #121113;
+    height: 64px;
+  }
+  
+  
+  .space{
+
+      height: 12%;
+  }
+  
+  i{
+  
+     font-size: 32px;
+  
+  }
+  
+  .card{
+    
+      width: 20rem;
+      color: aliceblue;
+      background-color:   #343b47;
+      
+  }
+  
+  .accordion{
+  
+      color: whitesmoke;
+      background-color: #343b47;
+  
+  }
+  
+  .accordion-item{
+  
+    color: whitesmoke;
+    background-color: #343b47;
+  
+  }
+  
+  .accordion-header{
+  
+    color: whitesmoke;
+    background-color: #343b47;
+  
+  
+  }
+  
+  .accordion-button{
+  
+    color: whitesmoke;
+    background-color: #4c5668;
+  
+  
+  }
+  
+  
