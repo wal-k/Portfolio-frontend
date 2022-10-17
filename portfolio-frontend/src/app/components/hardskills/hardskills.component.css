@@ -1,0 +1,12 @@
+
+.row{
+
+    border-top: solid rgba(255, 255, 255, 0.253) 8px;
+    margin: 20px;
+    padding-top: 40px;
+
+}
+
+.d-flex{
+    justify-content: center;
+}

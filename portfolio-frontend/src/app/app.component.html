@@ -1,25 +1,30 @@
-<div class=" row container-fluid text-white" style="border: 5px purple solid">
 
-    <!--COLUMNA IZQ. - MENU ---------------------------------- -->
-    <app-lateral-bar> </app-lateral-bar>
-    <!--COLUMNA DER. - PRINCIPAL.----------------------------- -->
-    <div class="col-3 menu_lat d-none d-md-block" style="border: 5px red solid "></div>
-    <div class="col" style="border: 5px yellow solid ; overflow: hidden">
+<div class="container-fluid text-white g-0 m-0" > 
+  
+  <div class="row g-0" >
 
-      <app-bottom-bar></app-bottom-bar>
-      <app-header></app-header>
-      <app-hardskills></app-hardskills>
-      <app-softskills></app-softskills>
-      <app-proyectos></app-proyectos>
-      <app-educacion></app-educacion>
-      <app-experiencia></app-experiencia>
-    </div>
+      <!--COLUMNA IZQ. - MENU ---------------------------------- -->
+      
+      <div class="col-3 d-none d-md-block position-fixed" >
+        <app-lateral-bar></app-lateral-bar>
+      </div>
 
-    <div class="row border" >
-        <div class="space">     </div>
-        <div class="space">     </div>
-        <div class="space">     </div>
-        <div class="space">     </div>
-    </div>
+      <div class="col-3 menu_lat d-none d-md-block " > </div>
+      
+    
+      <!--COLUMNA DER. - PRINCIPAL.----------------------------- -->
+
+      <div class="col">
+
+        <app-bottom-bar></app-bottom-bar>
+        <app-header></app-header>
+        <app-hardskills></app-hardskills>
+        <app-softskills></app-softskills>
+        <app-proyectos></app-proyectos>
+        <app-educacion></app-educacion>
+        <app-experiencia></app-experiencia>
+
+      </div>
+  </div>
 
 </div>
