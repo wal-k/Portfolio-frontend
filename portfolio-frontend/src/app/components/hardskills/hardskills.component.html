@@ -1,46 +1,37 @@
-<div class="  row " > 
+<div class="row d-flex" > 
 
     <h2 class=" ">HARDSKILLS</h2>
     
-    <div class=" d-flex flex-wrap ">
-
-      <div class="card m-3">
+        
+      <div *ngFor='let skill_category of hardskillsList;' class="card m-3"> 
         
         <div class="card-body">
-          <h5 class="card-title">Lenguajes</h5>
-          <div class="card-text">
 
-            <ul class="list-group list-group-flush ">
-              
-              <li class="list-group-item "><i class="devicon-typescript-plain colored"></i> TypeScript </li>
-              <li class="list-group-item"> <i class="devicon-python-plain colored"></i> Python</li>
-              <li class="list-group-item"> <i class="devicon-java-plain colored"></i> Java</li>
-              <li class="list-group-item"> <i class="devicon-html5-plain colored"></i> HTML5</li>
-              <li class="list-group-item"> <i class="devicon-css3-plain colored"></i> CSS3</li>
-           
-            </ul>
+          <h5 class="card-title">{{skill_category[0]}}</h5>
+            
+          <ul class="list-group list-group-flush ">
+              <li class="list-group-item" style="text-align: center;">
+                <br>
+              </li>
+
+              <li *ngFor="let skill of skill_category[1]" class="list-group-item ">
+                <i [class]="skill[1]"></i> 
+                {{skill[0]}} 
+              </li>
+          </ul>
+
           </div>
-
-        </div>
       </div>
+      
 
-      <div class="card m-3">
-        
-        <div class="card-body">
-          <h5 class="card-title">Frameworks</h5>
-          <div class="card-text">
-           
-            <ul class="list-group list-group-flush">
-              
-              <li class="list-group-item"><i class="devicon-angularjs-plain colored"></i> Angular JS</li> 
-              <li class="list-group-item"><i class="devicon-bootstrap-plain colored"></i> Bootstrap </li>
-              <li class="list-group-item"><i class="devicon-spring-plain colored"></i> Spring Boot</li> 
-              <li class="list-group-item"><i class="devicon-godot-plain colored"></i> Godot Engine</li>
-          
-            </ul>
-          </div>
-          
-        </div>
-      </div>
-    </div>
-  </div>
+     
+
+
+
+ 
+
+
+
+
+    
+</div>

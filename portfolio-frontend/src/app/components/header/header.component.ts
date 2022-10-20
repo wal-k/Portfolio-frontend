@@ -8,6 +8,7 @@ import {
   transition,
   // ...
 } from '@angular/animations';
+import { PortfolioService } from 'src/app/servicios/portfolio.service';
 
 @Component({
   selector: 'app-header',
@@ -17,11 +18,24 @@ import {
     // animation triggers go here
   ]
 })
+
 export class HeaderComponent implements OnInit {
 
-  constructor() { }
+  headerData:any;
+
+
+  constructor( private portfolioData:PortfolioService) { }
 
   ngOnInit(): void {
-  }
+
+    this.portfolioData.fetchData().subscribe( data =>{
+      console.log("3"+JSON.stringify(data));
+
+      this.headerData = data.header;
+      console.log("4"+JSON.stringify(this.headerData));
+
+  });
+
+  }                                
 
 }

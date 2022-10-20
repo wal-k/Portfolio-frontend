@@ -1,72 +1,24 @@
-<div class="row">
+<div class="row d-flex" > 
 
-    <h2 class=" ">Proyectos</h2>
+  <h2 class=" ">PROYECTOS </h2>
+  
+      
+    <div *ngFor='let project_category of projectsList;' class="card m-3"> 
+      
+      <div class="card-body">
 
-    <div class=" d-flex flex-wrap ">
-
-      <div class="card m-3">
+        <h5 class="card-title">{{project_category[0]}}</h5>
           
-        <div class="card-body">
+        <ul class="list-group list-group-flush ">
+            <li class="list-group-item" style="text-align: center;">
+              <br>
+            </li>
 
-          <img src="/imagenes/me.jpg" class="w-100" alt="">
-          <h5 class="card-title">Proyecto 3</h5>
-          <div class="card-text">
-          
-            <p class="card-text">
-              Descripcion proyecto lorem ipsum sit amet
-            </p>
+            <li *ngFor="let project of project_category[1]" class="list-group-item ">
+              <a >{{project[0]}}</a><br>
+              {{project[1]}} 
+            </li>
+        </ul>
 
-          </div>
-          
         </div>
-      </div>
-
-      <div class="card m-3">
-          
-        <div class="card-body">
-
-          <img src="/imagenes/me.jpg" class="w-100" alt="">
-          <h5 class="card-title">Proyecto 3</h5>
-          <div class="card-text">
-          
-            <p class="card-text">
-              Descripcion proyecto lorem ipsum sit amet
-            </p>
-          </div>
-          
-        </div>
-      </div>
-
-      <div class="card m-3">
-          
-        <div class="card-body">
-
-          <img src="/imagenes/me.jpg" class="w-100 " alt="">
-          <h5 class="card-title">Proyecto 4</h5>
-          <div class="card-text">
-          
-            <p class="card-text">
-              Descripcion proyecto lorem ipsum sit amet
-            </p>
-          </div>
-          
-        </div>
-      </div>
-
-      <div class="card m-3">
-          
-        <div class="card-body">
-
-          <img src="/imagenes/me.jpg" class="w-100" alt="">
-          <h5 class="card-title">Proyecto 3</h5>
-          <div class="card-text">
-          
-            <p class="card-text">
-              Descripcion proyecto lorem ipsum sit amet
-            </p>
-          </div>
-          
-        </div>
-      </div>
     </div>
-  </div>

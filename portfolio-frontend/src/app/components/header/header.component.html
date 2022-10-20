@@ -1,16 +1,16 @@
 
 <div class="row" id="home" >
   <div class="col logo" >
-    <img src="imagenes/APLogo-20-20.png" class=" " alt="AP Logo" >
+    <img [src]="headerData.logo" class=" " alt="AP Logo" >
   </div>
 </div>
 
 <div class="row" >
   <div class="title" >
-    <h1> Walter Kutschker </h1>
-    <h2> [ Programador ] </h2>
-    <h2> [ Web Dev Fullstack Jr. ]</h2>
-    <h3> Aviable for HIRE</h3>
+    <h1> {{headerData.name +" "+ headerData.surname }}</h1>
+    <h2> {{headerData.descriptions[0]}}</h2>
+    <h2> {{headerData.descriptions[1]}}</h2>
+    <h3> {{headerData.status}}</h3>
   </div>
 </div>
 

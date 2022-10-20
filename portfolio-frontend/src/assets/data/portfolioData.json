@@ -1,0 +1,128 @@
+{
+
+    "header": {
+
+        "logo":"./assets/imagenes/APLogo-20-20.png",
+        
+        "name":"Walter",
+        "surname": "Kutschker",
+        
+        "descriptions":[
+            
+            "Programador",
+            "WevDev Fullstack Jr."
+            
+        ],
+
+        "status": "Aviable for hire"
+   
+    },
+
+
+    "hardskills": {
+
+        "lenguajes": [
+
+            ["Typescript","devicon-typescript-plain colored"],
+            ["Python","devicon-python-plain colored"],
+            ["Java","devicon-java-plain colored"],
+            ["Html5","devicon-html5-plain colored"],
+            ["CSS3","devicon-typescript-plain colored"]
+
+        ],
+
+        
+        "frameworks": [
+
+            ["Angular","devicon-angularjs-plain colored"],
+            ["Bootstrap","devicon-bootstrap-plain colored"],
+            ["Spring Boot","devicon-spring-plain colored"],
+            ["Godot Engine","devicon-godot-plain colored"]
+
+
+        ] ,
+
+
+         "langs": [
+
+            ["Español","Nativo","-"],
+            ["Inglés","Nivel B2","Cambridge"]
+
+        ] ,
+
+        "would_like_learn": [
+
+            ["Rust","devicon-rust-plain colored"],
+            ["Lisp/Racket","devicon-lisp-plain colored"]
+           
+        ]
+
+    },
+
+
+    "softskills": {
+
+        "lenguajes": [
+
+            ["Typescript","devicon-typescript-plain colored"],
+            ["Python","devicon-python-plain colored"],
+            ["Java","devicon-java-plain colored"],
+            ["Html5","devicon-html5-plain colored"],
+            ["CSS3","devicon-typescript-plain colored"]
+
+        ],
+
+        
+        "frameworks": [
+
+            ["Angular","devicon-angularjs-plain colored"],
+            ["Bootstrap","devicon-bootstrap-plain colored"],
+            ["Spring Boot","devicon-spring-plain colored"],
+            ["Godot Engine","devicon-godot-plain colored"]
+
+
+        ] ,
+
+
+         "langs": [
+
+            ["Español","Nativo","-"],
+            ["Inglés","Nivel B2","Cambridge"]
+
+        ] ,
+
+        "would_like_learn": [
+
+            ["Rust","devicon-rust-plain colored"],
+            ["Lisp/Racket","devicon-lisp-plain colored"]
+           
+        ]
+
+    },
+
+
+    "projects": {
+
+        "Web Pages": [
+
+            ["Webpage name","www.mywebpage.com"],
+            ["Webpage name","www.mywebpage.com"],
+            ["Webpage name","www.mywebpage.com"],
+            ["Webpage name","www.mywebpage.com"],
+            ["Webpage name","www.mywebpage.com"]
+
+        ],
+
+        
+        "Games": [
+
+            ["Game","www.mywebpage.com"],
+            ["Game","www.mywebpage.com"],
+            ["Game","www.mywebpage.com"]
+           
+        ] 
+    
+    }
+
+
+}
