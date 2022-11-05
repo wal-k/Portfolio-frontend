@@ -25,10 +25,6 @@ export class HardskillsComponent implements OnInit {
       
   });
 
-    
-   
-  
-
   }                                
 
 }

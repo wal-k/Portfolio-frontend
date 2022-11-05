@@ -18,7 +18,7 @@ export class ProyectosComponent implements OnInit {
       console.log("1"+JSON.stringify(data));
 
       this.projectsList = Object.entries(data.projects);
-      alert(this.projectsList);
+      console.log(this.projectsList);
      
       
   });
