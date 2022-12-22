@@ -43,14 +43,14 @@
         ] ,
 
 
-         "langs": [
+         "idiomas": [
 
             ["Español","Nativo","-"],
-            ["Inglés","Nivel B2","Cambridge"]
+            ["Inglés","Nivel B2","Certificado:Cambridge"]
 
         ] ,
 
-        "would_like_learn": [
+        "me gustaría aprender...": [
 
             ["Rust","devicon-rust-plain colored"],
             ["Lisp/Racket","devicon-lisp-plain colored"]

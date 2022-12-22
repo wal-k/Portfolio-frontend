@@ -15,6 +15,8 @@ import { LateralBarMiniComponent } from './components/lateral-bar-mini/lateral-b
 import { EducacionComponent } from './components/educacion/educacion.component';
 import { ExperienciaComponent } from './components/experiencia/experiencia.component';
 import { ProyectosComponent } from './components/proyectos/proyectos.component';
+import { LoginComponent } from './components/login/login.component';
+import { PortfolioComponent } from './components/portfolio/portfolio.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +29,9 @@ import { ProyectosComponent } from './components/proyectos/proyectos.component';
     LateralBarMiniComponent,
     EducacionComponent,
     ExperienciaComponent,
-    ProyectosComponent
+    ProyectosComponent,
+    LoginComponent,
+    PortfolioComponent
   ],
   imports: [
     BrowserModule,
